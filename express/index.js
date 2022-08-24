@@ -40,7 +40,7 @@ app.get("/trainers", async (_req, res, next) => {
 app.post("/trainer", async (req, res, next) => {
   try {
     // TODO: トレーナー名が含まれていなければ400を返す
-    if(req.body.name.length > 0)
+    // if(req.body.name.length > 0)
 
 
 
